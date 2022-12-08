@@ -1,0 +1,79 @@
+body {
+    background-image: url('Imagens/children-1941336_960_720.png');
+    background-repeat: repeat;
+}
+
+section{
+    background-color: white;
+    backdrop-filter: unset;
+    border-radius: 5px;
+    
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: none none solid none;
+    border-color: rgb(197, 194, 194);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+form{
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+ }
+ 
+ label {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 12px;
+ }
+ 
+ input{
+     padding: 12px;
+     width: 97%;
+     border: 1px solid lightgray;
+     border-radius: 4px;
+     position: center;
+ }
+ 
+ button[type=submit]{
+     box-sizing: border-box;
+     width: 20% !important;
+ }
+ 
+ button[type=reset]{
+     box-sizing: border-box;
+     width: 20% !important;
+ }
+
+table{
+    border: 1px solid gray !important;
+    width: 50% !important;
+    margin: auto;
+    background-color: rgb(230, 230, 230);
+}
+
+.table-responsive{
+    width: 100% !important;
+}
+
+tr:nth-child(even) { 
+    background-color: white;
+}
+
+tr:hover {
+    background-color: gray;
+}
+
+table, th, td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    vertical-align: center;
+    text-align: center;
+}
+
+th, td{
+    padding: 5px;
+    text-align: center;
+}
